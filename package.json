@@ -1,0 +1,13 @@
+{
+  "name": "modularizacao",
+  "description": "Teste de implementação de uma modulariação de arquivos Javascript utilizando o RequireJs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "r_js -o builder.js"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.5"
+  }
+}
