@@ -1,5 +1,5 @@
 ({
-    baseUrl: "scripts/",
-    name: "index",
-    out: "./dist/package.js"
+    baseUrl: "src/",
+    name: "packageTest",
+    out: "./scripts/packages/packageTest.js"
 });
