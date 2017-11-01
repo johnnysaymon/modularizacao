@@ -1,7 +1,15 @@
-function callAlert(text) {
-    alert(text);
-}
+define(function(){
 
-function defaultAlert() {
-    alert("Este é o alerta padrão")
-}
+    function callAlert(text) {
+        alert(text);
+    }
+
+    function defaultAlert() {
+        alert("Este é o alerta padrão")
+    }
+
+    return {
+        'callAlert': callAlert,
+        'defaultAlert': defaultAlert,
+    }
+});

@@ -1,3 +1,5 @@
-function write(name) {
-    console.log(name);
-}
+define(function(){
+    return function(name) {
+        console.log(name);
+    }
+});
